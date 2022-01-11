@@ -5,6 +5,15 @@ Before you begin, you should accept the `seminar-02a` assignment through
 invite link on Canvas, and follow the steps you learned in Seminar 1 to
 clone the repo to your computer.
 
+## Attributions
+
+This seminar was originally developed by [Eric
+Chu](https://github.com/echu113) with materials adapted from [Happy Git
+and GitHub for the useR](http://happygitwithr.com/) by [Dr. Jenny
+Bryan](https://github.com/jennybc) and [The Official Documentation on R
+Markdown](http://rmarkdown.rstudio.com/). It was modified by Keegan
+Korthauer.
+
 ## Learning Objectives
 
 By the end of this seminar, you should
@@ -355,27 +364,7 @@ Visit the markdown file and compare to our previous HTML.
 Do you see how the markdown is much more useful on GitHub? **Internalize
 that**.
 
-## Part 4: Deliverables
-
-If you’ve been following along so far, and have a successfully knitted
-Rmd and GitHub Markdown file, you’ve completed the deliverable. Just
-make sure to commit & push the required files before the deadline so
-your assignment can be marked!
-
-To recap, here’s a summary of the steps required, starting from the top:
-
-1.  After you accept the assignment and clone your `seminar-02a` repo,
-    add an .Rmd file.
-2.  Make modifications as you see fit, and try out some Rmd
-    options/features! For example, add an image, some R code, a plot,
-    some headers, text, etc.
-3.  Knit your Rmd to a GitHub Markdown document.
-4.  Follow the [Submission
-    Instructions](https://stat540-ubc.github.io/submission_guide) to
-    submit (commit & push) the Rmd, knitted GitHub Markdown file, and
-    any figure out output files.
-
-## Final notes and some additional resources
+## Part 4: Final notes and some additional resources
 
 Final recommendations (excerpt from [Ch. 19 of Happy Git and GitHub for
 the useR](http://happygitwithr.com/rmd-test-drive.html)):
@@ -409,11 +398,22 @@ Here are some resources in case you want to learn more.
 -   [Other cool HTML options to
     check](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
-## Attributions
+## Part 5: Deliverable
 
-This seminar was developed by [Eric Chu](https://github.com/echu113)
-with materials adapted from [Happy Git and GitHub for the
-useR](http://happygitwithr.com/) by [Dr. Jenny
-Bryan](https://github.com/jennybc) and [The Official Documentation on R
-Markdown](http://rmarkdown.rstudio.com/). It was modified by Keegan
-Korthauer.
+**To submit for credit**: If you’ve been following along so far, and
+have a successfully knitted Rmd and GitHub Markdown file, you’ve
+completed the deliverable. Just make sure to commit & push the required
+files before the deadline so your assignment can be marked!
+
+To recap, here’s a summary of the steps required, starting from the top:
+
+1.  After you accept the assignment and clone your `seminar-02a` repo,
+    add an .Rmd file.
+2.  Make modifications as you see fit, and try out some Rmd
+    options/features! For example, add an image, some R code, a plot,
+    some headers, text, etc.
+3.  Knit your Rmd to a GitHub Markdown document.
+4.  Follow the [Submission
+    Instructions](https://stat540-ubc.github.io/submission_guide) to
+    submit (commit & push) the Rmd, knitted GitHub Markdown file, and
+    any figure out output files.
