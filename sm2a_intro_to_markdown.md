@@ -1,11 +1,28 @@
+STAT 540 - Seminar 2a: Introduction to R Markdown
+================
 
-# STAT 540 - Seminar 2a: Introduction to R Markdown
+-   [Before you begin](#before-you-begin)
+-   [Attributions](#attributions)
+-   [Learning Objectives](#learning-objectives)
+-   [Part 1: What is R Markdown?](#part-1-what-is-r-markdown)
+-   [Part 2: Nuts and bolts of R Markdown (contains excerpts from Ch. 19
+    of Happy Git and GitHub for the
+    useR)](#part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
+-   [Header 1](#header-1)
+-   [Part 3: Sharing is caring on GitHub (contains excerpts from Ch. 19
+    of Happy Git and GitHub for the
+    useR)](#part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
+-   [Part 4: Final notes and some additional
+    resources](#part-4-final-notes-and-some-additional-resources)
+-   [Part 5: Deliverable](#part-5-deliverable)
+
+# Before you begin
 
 Before you begin, you should accept the `seminar-02a` assignment through
 invite link on Canvas, and follow the steps you learned in Seminar 1 to
 clone the repo to your computer.
 
-## Attributions
+# Attributions
 
 This seminar was originally developed by [Eric
 Chu](https://github.com/echu113) with materials adapted from [Happy Git
@@ -14,7 +31,7 @@ Bryan](https://github.com/jennybc) and [The Official Documentation on R
 Markdown](http://rmarkdown.rstudio.com/). It was modified by Keegan
 Korthauer.
 
-## Learning Objectives
+# Learning Objectives
 
 By the end of this seminar, you should
 
@@ -28,7 +45,7 @@ By the end of this seminar, you should
 -   Be able to render an R Markdown document as GitHub Markdown and to
     push it to GitHub
 
-## Part 1: What is R Markdown?
+# Part 1: What is R Markdown?
 
 A very high level, abstract way to describe a markdown language is the
 marriage between coding and word processing. It is simply a way to
@@ -61,9 +78,9 @@ science.
 
 Watch this [introductory video](https://vimeo.com/178485416).
 
-## Part 2: Nuts and bolts of R Markdown (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
+# Part 2: Nuts and bolts of R Markdown (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
 
-### Create an .Rmd file
+## Create an .Rmd file
 
 We will author an R Markdown document and render it to HTML.
 
@@ -113,12 +130,12 @@ Markdown.
 
 You might want to commit here.
 
-### Content structure
+## Content structure
 
 Take a look at your auto-generated .Rmd file. An R Markdown file can
 have three “types” of text in general.
 
-#### YAML
+### YAML
 
 The first is the YAML section containing configurations for the file.
 This section looks like this:
@@ -142,7 +159,7 @@ We will talk about the output option later, when we integrate with
 GitHub. Briefly, this is how you can get R Markdown to render into
 various different document formats.
 
-#### Code Chunks
+### Code Chunks
 
 R code can be directly embedded into an .Rmd file and will be executed
 during rendering. The result of the code would be printed into resulting
@@ -157,20 +174,20 @@ Code is embedded in “code chunks” like so:
 This is how that data table and plot in the demo .Rmd file was rendered
 in the html!
 
-#### Text
+### Text
 
 Finally, any text that is outside of YAML or an R code chunk is rendered
 as Markdown text. Mostly, this is plain text, but with special syntax
 for headers, bold/italic font, displaying images, tables, etc. This is
 discussed in the next section.
 
-### Markdown syntax
+## Markdown syntax
 
 Here we demo a few commonly used features of Markdown for rendering
 text. These apply to Markdown documents (.md) as well as the text in R
 Markdown documents (.Rmd). Try them out yourself.
 
-#### Headers
+### Headers
 
 Rmd Input:
 
@@ -189,7 +206,7 @@ Output:
 
 #### Header 4
 
-#### Lists
+### Lists
 
 Rmd Input:
 
@@ -235,7 +252,7 @@ not scary
 2.  monkeys
 3.  rabbits
 
-#### Link
+### Link
 
 Rmd Input:
 
@@ -245,7 +262,7 @@ Output:
 
 [This is a link to GitHub](https://github.com/)
 
-#### Image
+### Image
 
 Rmd Input:
 
@@ -256,7 +273,7 @@ Output:
 ![This is an image of a
 puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
 
-### The cheatsheet
+## The cheatsheet
 
 Now that you have some taste of what R Markdown can do… here is [The R
 Markdown Cheat
@@ -266,12 +283,12 @@ This is a document that covers a variety of R Markdown use cases.
 Hopefully, this is a valuable resource that will follow you for many
 more years to come!
 
-### Go crazy!
+## Go crazy!
 
 Go ahead and spend 10 minutes to explore the different features in R
 Markdown. Keep knitting, early and often, to see your changes rendered.
 
-## Part 3: Sharing is caring on GitHub (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
+# Part 3: Sharing is caring on GitHub (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
 
 Remember the last seminar on Git? Remember how README.md was rendered on
 GitHub? Notice its file suffix “.md”.
@@ -364,7 +381,7 @@ Visit the markdown file and compare to our previous HTML.
 Do you see how the markdown is much more useful on GitHub? **Internalize
 that**.
 
-## Part 4: Final notes and some additional resources
+# Part 4: Final notes and some additional resources
 
 Final recommendations (excerpt from [Ch. 19 of Happy Git and GitHub for
 the useR](http://happygitwithr.com/rmd-test-drive.html)):
@@ -398,7 +415,7 @@ Here are some resources in case you want to learn more.
 -   [Other cool HTML options to
     check](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
-## Part 5: Deliverable
+# Part 5: Deliverable
 
 **To submit for credit**: If you’ve been following along so far, and
 have a successfully knitted Rmd and GitHub Markdown file, you’ve
