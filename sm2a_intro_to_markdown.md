@@ -1,20 +1,29 @@
 STAT 540 - Seminar 2a: Introduction to R Markdown
 ================
 
--   [Before you begin](#before-you-begin)
--   [Attributions](#attributions)
--   [Learning Objectives](#learning-objectives)
--   [Part 1: What is R Markdown?](#part-1-what-is-r-markdown)
--   [Part 2: Nuts and bolts of R Markdown (contains excerpts from Ch. 19
-    of Happy Git and GitHub for the
-    useR)](#part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
--   [Header 1](#header-1)
--   [Part 3: Sharing is caring on GitHub (contains excerpts from Ch. 19
-    of Happy Git and GitHub for the
-    useR)](#part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
--   [Part 4: Final notes and some additional
-    resources](#part-4-final-notes-and-some-additional-resources)
--   [Part 5: Deliverable](#part-5-deliverable)
+- <a href="#before-you-begin" id="toc-before-you-begin">Before you
+  begin</a>
+- <a href="#attributions" id="toc-attributions">Attributions</a>
+- <a href="#learning-objectives" id="toc-learning-objectives">Learning
+  Objectives</a>
+- <a href="#part-1-what-is-r-markdown"
+  id="toc-part-1-what-is-r-markdown">Part 1: What is R Markdown?</a>
+- <a
+  href="#part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user"
+  id="toc-part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user">Part
+  2: Nuts and bolts of R Markdown (contains excerpts from Ch. 19 of Happy
+  Git and GitHub for the useR)</a>
+- <a href="#header-1" id="toc-header-1">Header 1</a>
+- <a
+  href="#part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user"
+  id="toc-part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user">Part
+  3: Sharing is caring on GitHub (contains excerpts from Ch. 19 of Happy
+  Git and GitHub for the useR)</a>
+- <a href="#part-4-final-notes-and-some-additional-resources"
+  id="toc-part-4-final-notes-and-some-additional-resources">Part 4: Final
+  notes and some additional resources</a>
+- <a href="#part-5-deliverable" id="toc-part-5-deliverable">Part 5:
+  Deliverable</a>
 
 # Before you begin
 
@@ -35,15 +44,15 @@ Korthauer.
 
 By the end of this seminar, you should
 
--   Have a conceptual understanding of what R Markdown is and how it can
-    be used to render an analysis presentation in various formats
-    including GitHub Markdown
--   Know the basics of the R Markdown syntax for the generation of
-    headers, paragraphs, lists, links, and code chunks
--   Be able to compose R Markdown documents displaying simple tables and
-    graphs
--   Be able to render an R Markdown document as GitHub Markdown and to
-    push it to GitHub
+- Have a conceptual understanding of what R Markdown is and how it can
+  be used to render an analysis presentation in various formats
+  including GitHub Markdown
+- Know the basics of the R Markdown syntax for the generation of
+  headers, paragraphs, lists, links, and code chunks
+- Be able to compose R Markdown documents displaying simple tables and
+  graphs
+- Be able to render an R Markdown document as GitHub Markdown and to
+  push it to GitHub
 
 # Part 1: What is R Markdown?
 
@@ -89,17 +98,17 @@ complexity in small increments. We test our system’s ability to render
 the “hello world” of R Markdown documents before we muddy the waters
 with our own, probably buggy, documents.
 
-In RStudio, go to: File -> New File -> R Markdown…
+In RStudio, go to: File -\> New File -\> R Markdown…
 
--   Give it an informative title. This will appear in the document but
-    does not necessarily have anything to do with the file’s name. But
-    ideally the title and filename should be related! Why confuse
-    yourself? The title is for human eyeballs, so it can contain spaces
-    and punctuation. The filename is for humans and computers, so it
-    should have similar words in it but no spaces and no punctuation.
--   Accept the default Author or edit if you wish.
--   Accept the default output format of HTML (we can change this later).
--   Click OK.
+- Give it an informative title. This will appear in the document but
+  does not necessarily have anything to do with the file’s name. But
+  ideally the title and filename should be related! Why confuse
+  yourself? The title is for human eyeballs, so it can contain spaces
+  and punctuation. The filename is for humans and computers, so it
+  should have similar words in it but no spaces and no punctuation.
+- Accept the default Author or edit if you wish.
+- Accept the default output format of HTML (we can change this later).
+- Click OK.
 
 Save this document to a reasonable filename and location. The filename
 should end in .Rmd or .rmd. Save in the top-level of this RStudio
@@ -108,7 +117,7 @@ Trust me on this and do this for a while.
 
 You might want to commit here, so you can see what’s about to change…
 
-Click the “Knit” button or do File -> Knit Document. See screenshot.
+Click the “Knit” button or do File -\> Knit Document. See screenshot.
 
 ![Knit button](images/knit_button.png)
 
@@ -232,13 +241,13 @@ Rmd Input:
 
 Output:
 
--   Fruits
-    -   apples
-    -   bananas
-    -   grapes
--   Vegetables
-    -   carrots
-    -   broccoli
+- Fruits
+  - apples
+  - bananas
+  - grapes
+- Vegetables
+  - carrots
+  - broccoli
 
 scary
 
@@ -294,7 +303,7 @@ Remember the last seminar on Git? Remember how README.md was rendered on
 GitHub? Notice its file suffix “.md”.
 
 The magical process that turns your R Markdown to HTML is like so:
-`first-markdown.Rmd` –> `first-markdown.md` –> `first-markdown.html`.
+`first-markdown.Rmd` –\> `first-markdown.md` –\> `first-markdown.html`.
 Note the intermediate markdown, `first-markdown.md`. By default RStudio
 discards this, but you might want to hold on to that markdown.
 
@@ -307,7 +316,7 @@ the way you want.
 
 In many cases (e.g. for assignments in this class), you only want the
 markdown. In that case, we switch the output format to
-`github_document`. This means render will be `first-markdown.Rmd` –>
+`github_document`. This means render will be `first-markdown.Rmd` –\>
 `first-markdown.md`, where `first-markdown.md` is GitHub-flavored
 markdown. If you still want the HTML but also the intermediate markdown,
 there’s a way to request that too.
@@ -406,14 +415,14 @@ want even there?
 
 Here are some resources in case you want to learn more.
 
--   [The Official Documentation on R
-    Markdown](http://rmarkdown.rstudio.com/)
--   [Ch. 19 of Happy Git and GitHub for the
-    useR](http://happygitwithr.com/rmd-test-drive.html)
--   [The R Markdown Cheat
-    Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
--   [Other cool HTML options to
-    check](https://bookdown.org/yihui/rmarkdown/html-document.html)
+- [The Official Documentation on R
+  Markdown](http://rmarkdown.rstudio.com/)
+- [Ch. 19 of Happy Git and GitHub for the
+  useR](http://happygitwithr.com/rmd-test-drive.html)
+- [The R Markdown Cheat
+  Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+- [Other cool HTML options to
+  check](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
 # Part 5: Deliverable
 
@@ -432,5 +441,6 @@ To recap, here’s a summary of the steps required, starting from the top:
 3.  Knit your Rmd to a GitHub Markdown document.
 4.  Follow the [Submission
     Instructions](https://stat540-ubc.github.io/submission_guide) to
-    submit (commit & push) the Rmd, knitted GitHub Markdown file, and
-    any figure out output files.
+    submit the Rmd, knitted GitHub Markdown file, and any figure out
+    output files (save, commit, push to GitHub, submit repo URL on
+    Canvas).

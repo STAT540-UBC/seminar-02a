@@ -313,4 +313,4 @@ To recap, here's a summary of the steps required, starting from the top:
 1. After you accept the assignment and clone your `seminar-02a` repo, add an .Rmd file.
 2. Make modifications as you see fit, and try out some Rmd options/features! For example, add an image, some R code, a plot, some headers, text, etc.
 3. Knit your Rmd to a GitHub Markdown document.
-4. Follow the [Submission Instructions](https://stat540-ubc.github.io/submission_guide) to submit (commit & push) the Rmd, knitted GitHub Markdown file, and any figure out output files. 
+4. Follow the [Submission Instructions](https://stat540-ubc.github.io/submission_guide) to submit the Rmd, knitted GitHub Markdown file, and any figure out output files (save, commit, push to GitHub, submit repo URL on Canvas). 
