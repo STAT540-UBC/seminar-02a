@@ -202,12 +202,12 @@ Output:
 Rmd Input:
 
 ```
-![This is an image of a puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+![This is an image of a puppy](https://raw.githubusercontent.com/STAT540-UBC/seminar-02a/refs/heads/main/images/gettyimages-991380826-612x612.jpg)
 ```
 
 Output: 
 
-![This is an image of a puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+![This is an image of a puppy](https://raw.githubusercontent.com/STAT540-UBC/seminar-02a/refs/heads/main/images/gettyimages-991380826-612x612.jpg)
 
 
 ## The cheatsheet
@@ -301,7 +301,7 @@ Here are some resources in case you want to learn more.
 
 * [The Official Documentation on R Markdown](http://rmarkdown.rstudio.com/)
 * [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html)
-* [The R Markdown Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+* [The R Markdown Cheat Sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown-2.0.pdf)
 * [Other cool HTML options to check](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
 # Part 5: Deliverable

@@ -1,29 +1,20 @@
 STAT 540 - Seminar 2a: Introduction to R Markdown
 ================
 
-- <a href="#before-you-begin" id="toc-before-you-begin">Before you
-  begin</a>
-- <a href="#attributions" id="toc-attributions">Attributions</a>
-- <a href="#learning-objectives" id="toc-learning-objectives">Learning
-  Objectives</a>
-- <a href="#part-1-what-is-r-markdown"
-  id="toc-part-1-what-is-r-markdown">Part 1: What is R Markdown?</a>
-- <a
-  href="#part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user"
-  id="toc-part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user">Part
-  2: Nuts and bolts of R Markdown (contains excerpts from Ch. 19 of Happy
-  Git and GitHub for the useR)</a>
-- <a href="#header-1" id="toc-header-1">Header 1</a>
-- <a
-  href="#part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user"
-  id="toc-part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user">Part
-  3: Sharing is caring on GitHub (contains excerpts from Ch. 19 of Happy
-  Git and GitHub for the useR)</a>
-- <a href="#part-4-final-notes-and-some-additional-resources"
-  id="toc-part-4-final-notes-and-some-additional-resources">Part 4: Final
-  notes and some additional resources</a>
-- <a href="#part-5-deliverable" id="toc-part-5-deliverable">Part 5:
-  Deliverable</a>
+- [Before you begin](#before-you-begin)
+- [Attributions](#attributions)
+- [Learning Objectives](#learning-objectives)
+- [Part 1: What is R Markdown?](#part-1-what-is-r-markdown)
+- [Part 2: Nuts and bolts of R Markdown (contains excerpts from Ch. 19
+  of Happy Git and GitHub for the
+  useR)](#part-2-nuts-and-bolts-of-r-markdown-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
+- [Header 1](#header-1)
+- [Part 3: Sharing is caring on GitHub (contains excerpts from Ch. 19 of
+  Happy Git and GitHub for the
+  useR)](#part-3-sharing-is-caring-on-github-contains-excerpts-from-ch-19-of-happy-git-and-github-for-the-user)
+- [Part 4: Final notes and some additional
+  resources](#part-4-final-notes-and-some-additional-resources)
+- [Part 5: Deliverable](#part-5-deliverable)
 
 # Before you begin
 
@@ -119,7 +110,10 @@ You might want to commit here, so you can see what’s about to change…
 
 Click the “Knit” button or do File -\> Knit Document. See screenshot.
 
-![Knit button](images/knit_button.png)
+<figure>
+<img src="images/knit_button.png" alt="Knit button" />
+<figcaption aria-hidden="true">Knit button</figcaption>
+</figure>
 
 You might get prompted to install dependencies. If so, agree and
 continue.
@@ -128,7 +122,10 @@ RStudio should display a preview of the resulting HTML in the Viewer
 pane. You can see that the auto generated .Rmd file contains a quick
 demo of text, a data table, and a scatter plot.
 
-![Knitted html](images/knitted_html.png)
+<figure>
+<img src="images/knitted_html.png" alt="Knitted html" />
+<figcaption aria-hidden="true">Knitted html</figcaption>
+</figure>
 
 Also look at the file browser. You should see the R Markdown document,
 i.e. `first-markdown.Rmd` (or whatever you named it) AND the resulting
@@ -275,12 +272,16 @@ Output:
 
 Rmd Input:
 
-    ![This is an image of a puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+    ![This is an image of a puppy](https://raw.githubusercontent.com/STAT540-UBC/seminar-02a/refs/heads/main/images/gettyimages-991380826-612x612.jpg)
 
 Output:
 
-![This is an image of a
-puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+<figure>
+<img
+src="https://raw.githubusercontent.com/STAT540-UBC/seminar-02a/refs/heads/main/images/gettyimages-991380826-612x612.jpg"
+alt="This is an image of a puppy" />
+<figcaption aria-hidden="true">This is an image of a puppy</figcaption>
+</figure>
 
 ## The cheatsheet
 
@@ -420,7 +421,7 @@ Here are some resources in case you want to learn more.
 - [Ch. 19 of Happy Git and GitHub for the
   useR](http://happygitwithr.com/rmd-test-drive.html)
 - [The R Markdown Cheat
-  Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+  Sheet](https://raw.githubusercontent.com/rstudio/cheatsheets/main/rmarkdown-2.0.pdf)
 - [Other cool HTML options to
   check](https://bookdown.org/yihui/rmarkdown/html-document.html)
 
