@@ -35,7 +35,7 @@ An R Markdown file has the `.Rmd` file suffix. An .Rmd file is a **source** file
 
 Yet, unfortunately, as with anything in the world, the more powerful something is, the deeper its learning curve will be. In this seminar, we will go through the nuts and bolts of creating and rendering an R Markdown file. We will go through the basic features such as rendering text and simple data tables and graphs. Then we will demonstrate how R Markdown can be used for presenting and sharing analyses on GitHub, making it an incredibly powerful tool for practicing reproducible science. 
 
-Watch this [introductory video](https://vimeo.com/178485416). 
+Watch this [introductory video](https://vimeo.com/782989807). 
 
 # Part 2: Nuts and bolts of R Markdown (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
 

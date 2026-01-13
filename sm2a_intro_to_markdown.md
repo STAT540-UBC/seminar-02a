@@ -76,7 +76,7 @@ Markdown can be used for presenting and sharing analyses on GitHub,
 making it an incredibly powerful tool for practicing reproducible
 science.
 
-Watch this [introductory video](https://vimeo.com/178485416).
+Watch this [introductory video](https://vimeo.com/782989807).
 
 # Part 2: Nuts and bolts of R Markdown (contains excerpts from [Ch. 19 of Happy Git and GitHub for the useR](http://happygitwithr.com/rmd-test-drive.html))
 
